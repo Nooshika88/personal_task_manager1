@@ -21,7 +21,14 @@ tasks = []
 count = int(input("how many tasks do you want to add? : "))
 for i in range(count):
     task = input("enter a task: ")
+    priority = input("enter priority(low/medium/high): ").lower()
+    task = {
+        "name" : task,
+        "priority" : priority
+    }
+
     tasks.append(task)
+
 
 show_tasks(tasks)
 save_tasks(tasks)
