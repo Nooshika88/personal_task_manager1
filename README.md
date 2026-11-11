@@ -72,3 +72,6 @@ python main.py
 
 ## Demo
 ![personal_task_manager_screenshot](gifs\gif1.gif)
+
+
+nooshika fallah
